@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.parent * {
+  all: revert;
+}
+
+.parent h1 {
+  border-bottom: 2px solid rgb(71 85 105);
+}
+
+.parent h2 {
+  border-bottom: 1px solid rgb(71 85 105);
+}
+
+.parent blockquote {
+  border-left: 3px solid rgb(71 85 105);
+  color: rgb(71 85 105);
+  padding-left: 5px;
+  margin-left: 25px;
+}
+.parent table {
+  border-collapse: collapse;
+}
+.parent th,
+.parent td {
+  border: 2px solid rgb(71 85 105);
+  padding: 0 1rem;
+}
+
+.parent code {
+  background-color: rgb(255 255 255);
+  padding: 0.1rem;
+}
+
+.parent img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
